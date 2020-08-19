@@ -1,11 +1,11 @@
 import React from "react";
 import "./styles.css";
+import Homepage from "./pages/homepage/homepage";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>React shop</h1>
-      <h2>React 2020 course</h2>
+      <Homepage />
     </div>
   );
 }
